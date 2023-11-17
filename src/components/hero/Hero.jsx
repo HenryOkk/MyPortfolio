@@ -39,6 +39,14 @@ const sliderVariants = {
   },
 };
 
+const handleWorkClick = () => {
+  console.log("clicked");
+  window.scrollTo({
+    top: 1000,
+    behavior: "smooth",
+  });
+};
+
 const Hero = () => {
   return (
     <div className="hero">
@@ -54,7 +62,11 @@ const Hero = () => {
             Software Engineer and Web Developer
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
+            <motion.button
+              variants={textVariants}
+              whileHover={{ color: "orange" }}
+              onClick={handleWorkClick}
+            >
               See the Latest Works
             </motion.button>
             <motion.button variants={textVariants}>Contact me</motion.button>
