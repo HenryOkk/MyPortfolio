@@ -40,9 +40,15 @@ const sliderVariants = {
 };
 
 const handleWorkClick = () => {
-  console.log("clicked");
   window.scrollTo({
-    top: 1000,
+    top: 3000,
+    behavior: "smooth",
+  });
+};
+
+const handleContactClick = () => {
+  window.scrollTo({
+    top: 6000,
     behavior: "smooth",
   });
 };
@@ -58,9 +64,7 @@ const Hero = () => {
           animate="animate"
         >
           <motion.h2 variants={textVariants}>HENRY OK</motion.h2>
-          <motion.h1 variants={textVariants}>
-            Software Engineer and Web Developer
-          </motion.h1>
+          <motion.h1 variants={textVariants}>Software Engineer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button
               variants={textVariants}
@@ -69,7 +73,13 @@ const Hero = () => {
             >
               See the Latest Works
             </motion.button>
-            <motion.button variants={textVariants}>Contact me</motion.button>
+            <motion.button
+              variants={textVariants}
+              onClick={handleContactClick}
+              whileHover={{ color: "orange" }}
+            >
+              Contact me
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -86,9 +96,9 @@ const Hero = () => {
       >
         Software Engineer Golfer
       </motion.div>
-      <div className="imageContainer">
+      {/* <div className="imageContainer">
         <img src="/hero.png" alt="" />
-      </div>
+      </div> */}
     </div>
   );
 };
