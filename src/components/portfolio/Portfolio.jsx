@@ -15,7 +15,7 @@ const items = [
 		id: 2,
 		title: "Gateway - AWS Project",
 		img: "../../../public/AWS.png",
-		desc: "Deploying and managing a WordPress application, similar to Airbnb, on Amazon Web Services (AWS) with a strong focus on ensuring high availability, scalability, and fault tolerance. The website is no longer active due to ongoing billing issues",
+		desc: "Deploying and managing a WordPress application, similar to Airbnb, on Amazon Web Services (AWS) with a strong focus on ensuring high availability, scalability, and fault tolerance. The website is no longer active due to ongoing billing issues.",
 		demoLink: "https://aws.amazon.com/verification",
 	},
 	{
@@ -35,9 +35,9 @@ const items = [
 	{
 		id: 5,
 		title: "Welcome Home",
-		img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-		desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
-		demoLink: "https://github.com/WIStCart/OriginalLandSurveyExplorer",
+		img: "../../../home.png",
+		desc: "Welcome Home is an innovative web application designed to connect compassionate individuals with shelter dogs in need of a loving home. This platform empowers users to easily access comprehensive information about available dogs while incorporating a seamless chat functionality. ",
+		demoLink: "https://github.com/HenryOkk/WelcomeHome",
 	},
 ];
 
