@@ -17,17 +17,8 @@ const Navbar = () => {
           Henry (Donghwan) Ok
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/instagram.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
-          </a>
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://www.linkedin.com/in/henryok" target="_blank">
+            <img src="/linkedin.png" alt="" />
           </a>
         </div>
       </div>
